@@ -6,3 +6,17 @@
     z-index: 1;
     background-color: darkgray;
 }
+
+.Link {
+    color: white;
+
+}
+
+.linkDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
