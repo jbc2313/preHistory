@@ -6,6 +6,6 @@
 
 ## *Tools Used*
 
-### TypeScript
-### Next.js
-### Neovim
+#### TypeScript
+#### Next.js
+#### Neovim
