@@ -1,9 +1,16 @@
+import {useState} from 'react';
+
+
 export default function SearchBar() {
-    
+    const [searchtext, setSearchText] = useState(""); 
+
 
     return (
         <div>
-            searchbar
+            <p>Search</p>
+            <form>
+                <input value={searchtext} type="text" />
+            </form>
         </div>
     )
 
