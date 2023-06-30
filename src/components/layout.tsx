@@ -5,11 +5,12 @@ import styles from '@/styles/Layout.module.css'
 
 export default function Layout({ children }: PropsWithChildren) {
     return (
-        <>
+        <div className={styles.MainDivLayout}>
             <Navbar />
-            <main className={styles.main}>{children}</main>
-            <Footer />
-
-        </>
+            <div className={styles.BodyLayout}>
+                <main className={styles.main}>{children}</main>
+                <Footer />
+            </div>
+        </div>
     )
 }
