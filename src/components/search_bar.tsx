@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import styles from '@/styles/Search.module.css'
 
 
 export default function SearchBar() {
@@ -6,9 +7,9 @@ export default function SearchBar() {
 
 
     return (
-        <div>
+        <div className={styles.main}>
             <p>Search</p>
-            <form>
+            <form className={styles.form}>
                 <input value={searchtext} type="text" />
             </form>
         </div>
