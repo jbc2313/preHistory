@@ -1,18 +1,14 @@
 .MainDivLayout {
     display: flex;
     flex-direction: row;
-
 }
 
 .main {
     margin-left: 400px;
-
 }
-
 
 .BodyLayout {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
