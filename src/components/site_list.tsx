@@ -11,7 +11,6 @@ export default function SiteList() {
                 <li>Richat Structure</li>
             </ul>
         </div>
-
     )
 
 }
