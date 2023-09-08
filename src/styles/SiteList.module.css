@@ -1,8 +1,12 @@
 .SiteListMain {
     color: red;
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 10px;
 
 }
 
 .SiteListUL {
+    list-style: none;
     text-decoration: underline;
 }
