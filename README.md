@@ -8,7 +8,7 @@ or just simply denied 30 years ago.
 -----------------------------------
 #### TypeScript
 #### Next.js
-#### Pigeon maps
+#### Pigeon Maps
 #### Neovim
 
 
