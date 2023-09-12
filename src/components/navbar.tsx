@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <div className={styles.mainDiv}>
             <div className={styles.main}>
-                <p className={styles.Title}>pre"history"</p>
+                <p className={styles.Title}>Pre"History"</p>
                 <div className={styles.linkDiv}>
                     <Link className={styles.Link} href={'/'}>Home</Link> 
                     <Link className={styles.Link} href={'/sites'}>Sites</Link>
